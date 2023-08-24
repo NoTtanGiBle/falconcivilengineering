@@ -91,23 +91,39 @@ nav{
 }
 /*--------------------------------Profile----------------------------------*/
 .Profile {
-	height: 200px;
-	padding: 4 3 5%;
-	background: 
-hsla(0,0%,74%,1.00);
+	height: 100%;
+	padding: 2% 3% 2%;
+	background: url("../Image/pic-image-service-sea-freight.jpg");
+	
+	background: cover;
+	background-position: right 40%; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	background-size: cover; 
+	object-fit: cover;
 }
 .SecProfile-text h{
-	font-size: 20px;
-	margin-left: 5%;
-	padding: 1px 10px 0px 0px;
+    font-size: 20px;
+    margin-left: 5%;
+    padding: 1px 10px 0px 0px;
+    font-weight: bold;
+	background:  hsla(0,100%,98%,0.22);
+	border-radius: 5px
 }
 .SecProfile-text p{
 	font-size: 16px;
 	margin-top: 2%;
 	margin-left: 5%;
-	word-break: keep-all;
-	padding: 0px 10px  ;
+	word-break: normal;
+	padding: 0px 10px ;
+	width: 50%;
+	height: 100%;
+	font-weight: bold;
+	background: hsla(0,100%,98%,0.22);
+	border-radius: 5px;
 }
+
 .Profile-text{
 	height: 50vh;
 	width: 100%;
