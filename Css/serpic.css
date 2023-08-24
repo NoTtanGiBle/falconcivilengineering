@@ -1,0 +1,55 @@
+.title {
+    position: relative;
+    height: 150px;
+    width: 100%;
+    align-content: bottom center;
+    background: url("../Image/train.jpg");
+    background: cover;
+	background-position: center 15%; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	background-size: cover; 
+	
+}
+.Sw{
+    font-size: 20px;
+    font-weight: bold;
+	text-align: center; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	background-size: cover; 
+	height: 100px; 
+}
+.serpicrow {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+	height: 100%;
+	
+}
+.column {
+  -ms-flex: 30%; /* IE 10 */
+  flex: 30%;
+  padding: 10px 4px;
+  height: 100%;
+	
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+	object-fit: cover;
+}
+.column {
+  opacity: 80%;
+}
+
+.column:hover {
+  opacity: 100%;
+  transition: opacity 1s;
+}
+
+.textserall{
+	padding: 0px 20px;
+}
