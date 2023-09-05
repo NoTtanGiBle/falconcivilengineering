@@ -34,10 +34,10 @@ nav{
 	
 }
 .navlist a{
-	margin: 0px 5px;
-	padding: 3px 8px;
+	margin: 0px 3px;
+	padding: 2px 5px;
 	color: #0D0D0D;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: bolder;
 	transition: all .50s ease;	
 	position: relative;
@@ -239,7 +239,7 @@ div.desc {
 /*-----------------------Contact us------------------------*/
 .Contact-us {
 	padding: 0% 4% 3% 4%;
-	height: 450px;
+	height: 480px;
 	background: 
 hsla(0,0%,100%,1.00);
 	
@@ -317,13 +317,380 @@ section{
 	}
 }
 @media (max-width:750px){
+	.navlist{
+		font-size: 10px;
+	}
+	.logo {
+		font-size: 12px;
+	}
+	.logo img{
+		height: 50px;
+		width: 50px
+	}
+	#menu-icon{
+		font-size: 43px;
+	}
 	.main-text h1{
 		font-size: 25px;
+		
 	}
 	.main-text p{
 		font-size: 20px;
 	}
-	.logo{
+	.Profile h {
+		font-size: 18px;
+		position: relative;
+		width: 250px;
+		display: block;
+		text-align: center;
+		right: 10px;
+	}
+	.Profile p{
+		font-size: 14px;
+		position: relative;
+		width: 250px;
+		text-align: center;
+		right: 10px;
+	}
+	.responsive{
+		width: 100%;
+		height: 100%;
+		margin-bottom: 10px;
+	}
+	
+	.body{
+		align-items: center;
+		object-fit: cover;
+	}
+	nav {
+		width: 100%;
+	}
+	
+	.Contact-us{
+		height: 870px;
+	}
+	.Contact-us h2  {
+		position: relative;
+		font-size: 20px;
+		left: 110px;
+		top: 0px;
+	}
+	
+	.contactusmap {
+		position: relative;
+		left: 25px;
+		top: 15px;
+        width: 280px;
+        height: 200px;
+    }
+	
+	.container p{
+		position: relative;
+	    top: 370px;
+		right: 640px;
+		font-size: 13px;
+		align-items: center;
+		width: 100px;
+	}
+	.container a{
+		position: relative;
+	    top: 320px;
+		right: 662px;
+	}
+	
+	.Contact-us i{
+		position: relative;
+	    top: 430px;
+		right: 680px;
+		font-size: 30px;
+	}
+		.Contact-us i1{
+		position: relative;
+	    top: 410px;
+		right: 680px;
+		font-size: 30px;
+	}
+		.Contact-us i2{
+		position: relative;
+	    top: 410px;
+		right: 680px;
+		font-size: 30px;
+	}
+		.Contact-us i3{
+		position: relative;
+	    top: 405px;
+		right: 680px;
+		font-size: 30px;
+	}
+	 .facebook {
+		position: relative;
+		bottom: 20px;
+		left: 20px;
+	}
+	
+	.Contact-us a {
+		position: relative;
+	    top: 290px;
+		right: 660px;
+		font-size: 13px;
+	}
+	.Contact-us h1{
+		position: relative;
+		right: 665px;
+		top: 370px;
+	}
+	.Contact-us h4{
+		position: relative;
+		right: 660px;
+		top: 370px;
+	}
+	.barcode {
+	position: relative;
+	top: 420px; 
+	right: 648px;
+}
+	.gps {
+	position: relative;
+	right: 110px;
+		top: 180px;
+   }
+	.flogo{
+		position: relative;
+		top: 20px;
+		left: 130px;
+		
+	}
+	.flogo p{
+		position: relative;
+		right: 115px;
+		width: 330px;
+	}
+	.flogo container{
+		position: relative;
+		right: 300px;
+		top: 80px;
+		width: 200px;
+	}
+	.ftag{
+		position: relative;
+		top: 40px;
+		left: 50px;
 		font-size: 15px;
+		width: 310px;
+	}
+	.Footag{
+		height: 455px;
+	}
+	.Footag i{
+		position: relative;
+		font-size: 30px;
+		bottom: 200px;
+		left: 10px;
+	}
+	.Footag i2{
+		position: relative;
+		font-size: 30px;
+		bottom: 115px;
+		right: 20px;
+	}
+	.Footag i3{
+		position: relative;
+		font-size: 30px;
+		bottom: 45px;
+		right: 55px;
+	}
+	.Footag i4{
+		position: relative;
+		font-size: 30px;
+		top: 5px;
+		right: 90px;
+	}
+}
+@media (max-width:410px)
+{
+	.logo {
+		font-size: 12px;
+	}
+	.logo img{
+		height: 50px;
+		width: 50px
+	}
+	#menu-icon{
+		font-size: 43px;
+	}
+	.main-text h1{
+		font-size: 15px;
+		
+	}
+	.main-text p{
+		font-size: 13.5px;
+	}
+	.Profile h {
+		font-size: 18px;
+		position: relative;
+		width: 250px;
+		display: block;
+		text-align: center;
+		right: 10px;
+	}
+	.Profile p{
+		font-size: 14px;
+		position: relative;
+		width: 250px;
+		text-align: center;
+		right: 10px;
+	}
+	.responsive{
+		width: 100%;
+		height: 100%;
+		margin-bottom: 10px;
+	}
+	
+	.body{
+		align-items: center;
+		object-fit: cover;
+	}
+	nav {
+		width: 100%;
+	}
+	
+	.Contact-us{
+		height: 870px;
+	}
+	.Contact-us h2  {
+		position: relative;
+		font-size: 20px;
+		left: 110px;
+		top: 0px;
+	}
+	
+	.contactusmap {
+		position: relative;
+		left: 25px;
+		top: 15px;
+        width: 280px;
+        height: 200px;
+    }
+	
+	.container p{
+		position: relative;
+	    top: 370px;
+		right: 640px;
+		font-size: 13px;
+		align-items: center;
+		width: 100px;
+	}
+	.container a{
+		position: relative;
+	    top: 320px;
+		right: 662px;
+	}
+	
+	.Contact-us i{
+		position: relative;
+	    top: 430px;
+		right: 680px;
+		font-size: 30px;
+	}
+		.Contact-us i1{
+		position: relative;
+	    top: 410px;
+		right: 680px;
+		font-size: 30px;
+	}
+		.Contact-us i2{
+		position: relative;
+	    top: 410px;
+		right: 680px;
+		font-size: 30px;
+	}
+		.Contact-us i3{
+		position: relative;
+	    top: 405px;
+		right: 680px;
+		font-size: 30px;
+	}
+	 .facebook {
+		position: relative;
+		bottom: 20px;
+		left: 20px;
+	}
+	
+	.Contact-us a {
+		position: relative;
+	    top: 290px;
+		right: 660px;
+		font-size: 13px;
+	}
+	.Contact-us h1{
+		position: relative;
+		right: 665px;
+		top: 370px;
+	}
+	.Contact-us h4{
+		position: relative;
+		right: 660px;
+		top: 370px;
+	}
+	.barcode {
+	position: relative;
+	top: 420px; 
+	right: 648px;
+}
+	.gps {
+	position: relative;
+	right: 110px;
+		top: 180px;
+   }
+	.flogo{
+		position: relative;
+		top: 20px;
+		left: 130px;
+		
+	}
+	.flogo p{
+		position: relative;
+		right: 115px;
+		width: 330px;
+	}
+	.flogo container{
+		position: relative;
+		right: 300px;
+		top: 80px;
+		width: 200px;
+	}
+	.ftag{
+		position: relative;
+		top: 40px;
+		left: 50px;
+		font-size: 15px;
+		width: 310px;
+	}
+	.Footag{
+		height: 455px;
+	}
+	.Footag i{
+		position: relative;
+		font-size: 30px;
+		bottom: 200px;
+		left: 10px;
+	}
+	.Footag i2{
+		position: relative;
+		font-size: 30px;
+		bottom: 115px;
+		right: 20px;
+	}
+	.Footag i3{
+		position: relative;
+		font-size: 30px;
+		bottom: 45px;
+		right: 55px;
+	}
+	.Footag i4{
+		position: relative;
+		font-size: 30px;
+		top: 5px;
+		right: 90px;
 	}
 }
