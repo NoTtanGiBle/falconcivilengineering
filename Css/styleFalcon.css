@@ -516,7 +516,10 @@ section{
 		width: 50px
 	}
 	#menu-icon{
-		font-size: 43px;
+		position: relative;
+		font-size: 40px;
+		left: -5px;
+		width: 375;
 	}
 	.main-text h1{
 		font-size: 15px;
@@ -549,9 +552,10 @@ section{
 	.body{
 		align-items: center;
 		object-fit: cover;
+		width: 375px;
 	}
 	nav {
-		width: 100%;
+		width: 375px;
 	}
 	
 	.Contact-us{
